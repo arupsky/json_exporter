@@ -8,4 +8,4 @@ class Trial_DTO:
         self.trial_id = trial_id
         self.pupil_dilation = pupil_dilation
         self.baseline = baseline
-        self.rating = rating
+        self.rating = rating    
