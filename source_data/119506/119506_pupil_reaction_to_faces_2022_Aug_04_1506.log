@@ -1,0 +1,940 @@
+33.9661 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+34.9434 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F41BD64128>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F41BF05D68>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1680, 1050]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+34.9437 	EXP 	window1: mouseVisible = True
+34.9437 	EXP 	window1: recordFrameIntervals = False
+35.1097 	EXP 	window1: recordFrameIntervals = True
+35.2934 	EXP 	window1: recordFrameIntervals = False
+35.7339 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="Welcome!\n\nPress 'space' to continue", units='height', win=Window(...), wrapWidth=1)
+35.7430 	EXP 	window1: mouseVisible = True
+35.7604 	EXP 	Created gender_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=0, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.06, labelWrapWidth=None, labels=('male', 'female'), name='gender_slider', opacity=None, pos=(0, 0.1), readOnly=False, self=UNKNOWN, size=(0.6, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2]), units='height', win=Window(...))
+35.7803 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Please select your gender:', units='height', win=Window(...), wrapWidth=1)
+35.7892 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text="press 'space' to continue", units='height', win=Window(...), wrapWidth=1)
+35.8087 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='Arabic', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="Press 'space' for the next image", units='height', win=Window(...), wrapWidth=1)
+35.8105 	EXP 	Created img_shuffled = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='img_shuffled', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.8, 0.8]), texRes=128.0, units='height', win=Window(...))
+35.8121 	EXP 	Created image_stimuli = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_stimuli', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.8, 0.8]), texRes=128.0, units='height', win=Window(...))
+35.8177 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='Please rate the image:', units='height', win=Window(...), wrapWidth=1)
+35.8250 	EXP 	window1: mouseVisible = True
+35.8560 	EXP 	Created rating_score = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.04, labelWrapWidth=None, labels=tuple(...), name='rating_score', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4]), units='height', win=Window(...))
+35.8694 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text="press 'space' to continue", units='height', win=Window(...), wrapWidth=1)
+35.8835 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for participating!', units='height', win=Window(...), wrapWidth=1)
+35.9189 	EXP 	gender_slider: autoLog = True
+35.9189 	EXP 	gender_slider: markerPos = None
+35.9189 	EXP 	gender_slider: rating = None
+35.9189 	EXP 	gender_slider: markerPos = None
+35.9189 	EXP 	gender_slider: contrast = 1.0
+35.9189 	EXP 	gender_slider: autoLog = True
+35.9189 	EXP 	gender_slider: styleTweaks = []
+35.9189 	EXP 	gender_slider: style = 'radio'
+35.9189 	EXP 	gender_slider: styleTweaks = []
+35.9189 	EXP 	rating_score: autoLog = True
+35.9189 	EXP 	rating_score: markerPos = None
+35.9189 	EXP 	rating_score: rating = None
+35.9189 	EXP 	rating_score: markerPos = None
+35.9189 	EXP 	rating_score: contrast = 1.0
+35.9189 	EXP 	rating_score: autoLog = True
+35.9189 	EXP 	rating_score: styleTweaks = []
+35.9189 	EXP 	rating_score: style = 'rating'
+35.9189 	EXP 	rating_score: styleTweaks = []
+35.9189 	EXP 	text: autoDraw = True
+38.1090 	DATA 	Keypress: space
+38.1243 	EXP 	text: autoDraw = False
+38.1243 	EXP 	gender_slider: markerPos = None
+38.1243 	EXP 	gender_slider: markerPos = None
+38.1243 	EXP 	gender_slider: rating = None
+38.1243 	EXP 	gender_slider: autoDraw = True
+38.1243 	EXP 	text_5: autoDraw = True
+38.1243 	EXP 	text_6: autoDraw = True
+42.6725 	DATA 	Keypress: right
+45.1296 	DATA 	Mouse: Left button down, pos=(522,614)
+45.1696 	EXP 	gender_slider: markerPos = 0.9952381153901417
+45.1881 	EXP 	gender_slider: markerPos = 0.9952381153901417
+45.2067 	EXP 	gender_slider: markerPos = 0.9952381153901417
+45.2239 	EXP 	gender_slider: markerPos = 0.9952381153901417
+45.2410 	EXP 	gender_slider: markerPos = 0.9952381153901417
+45.2579 	EXP 	gender_slider: markerPos = 0.9952381153901417
+45.2622 	DATA 	Mouse:  Left button up, pos=(522,614)
+45.2766 	EXP 	gender_slider: markerPos = 1.0
+45.2766 	EXP 	gender_slider: rating = 1.0
+46.1645 	EXP 	Created sequence: sequential, trialTypes=1, nReps=30, seed=None
+46.1648 	EXP 	New trial (rep=0, index=0): None
+46.1850 	DATA 	Keypress: space
+46.1922 	EXP 	gender_slider: autoDraw = False
+46.1922 	EXP 	text_5: autoDraw = False
+46.1922 	EXP 	text_6: autoDraw = False
+46.1922 	EXP 	text_2: text = "To start the trial run, press 'space'"
+46.1922 	EXP 	text_2: autoDraw = True
+48.5511 	DATA 	Keypress: space
+48.5595 	EXP 	text_2: autoDraw = False
+48.5595 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4A19B3D68>
+48.5595 	EXP 	img_shuffled: autoDraw = True
+50.0506 	EXP 	img_shuffled: autoDraw = False
+50.0506 	EXP 	image_stimuli: image = './images/female/17.jpg'
+50.0506 	EXP 	image_stimuli: autoDraw = True
+55.0503 	EXP 	image_stimuli: autoDraw = False
+55.0503 	EXP 	rating_score: markerPos = None
+55.0503 	EXP 	rating_score: markerPos = None
+55.0503 	EXP 	rating_score: rating = None
+55.0503 	EXP 	text_3: autoDraw = True
+55.0503 	EXP 	rating_score: autoDraw = True
+55.0503 	EXP 	text_7: autoDraw = True
+67.4865 	DATA 	Mouse: Left button down, pos=(646,533)
+67.5006 	EXP 	rating_score: markerPos = 1.9457142651081085
+67.5197 	EXP 	rating_score: markerPos = 1.9457142651081085
+67.5387 	EXP 	rating_score: markerPos = 1.9457142651081085
+67.5572 	EXP 	rating_score: markerPos = 1.9457142651081085
+67.5760 	EXP 	rating_score: markerPos = 1.9457142651081085
+67.5946 	EXP 	rating_score: markerPos = 1.9457142651081085
+67.6068 	DATA 	Mouse:  Left button up, pos=(646,533)
+67.6155 	EXP 	rating_score: markerPos = 1.9457142651081085
+67.6364 	EXP 	rating_score: markerPos = 2.0
+67.6364 	EXP 	rating_score: rating = 2.0
+69.5591 	EXP 	New trial (rep=1, index=0): None
+69.5911 	DATA 	Keypress: space
+69.5987 	EXP 	text_3: autoDraw = False
+69.5987 	EXP 	rating_score: autoDraw = False
+69.5987 	EXP 	text_7: autoDraw = False
+69.5987 	EXP 	text_2: text = "You have finished the trail experiment. Now you are ready to run the actual experiment, press 'space' to continue."
+69.5987 	EXP 	text_2: autoDraw = True
+74.2430 	DATA 	Keypress: space
+74.2514 	EXP 	text_2: autoDraw = False
+74.2514 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4A0F8FA20>
+74.2514 	EXP 	img_shuffled: autoDraw = True
+75.7397 	EXP 	img_shuffled: autoDraw = False
+75.7397 	EXP 	image_stimuli: image = './images/female/16.jpg'
+75.7397 	EXP 	image_stimuli: autoDraw = True
+80.7352 	EXP 	image_stimuli: autoDraw = False
+80.7352 	EXP 	rating_score: markerPos = None
+80.7352 	EXP 	rating_score: markerPos = None
+80.7352 	EXP 	rating_score: rating = None
+80.7352 	EXP 	text_3: autoDraw = True
+80.7352 	EXP 	rating_score: autoDraw = True
+80.7352 	EXP 	text_7: autoDraw = True
+81.8549 	DATA 	Mouse: Left button down, pos=(668,508)
+81.8693 	EXP 	rating_score: markerPos = 2.008571431040764
+81.8884 	EXP 	rating_score: markerPos = 2.008571431040764
+81.9070 	EXP 	rating_score: markerPos = 2.008571431040764
+81.9259 	EXP 	rating_score: markerPos = 2.008571431040764
+81.9446 	EXP 	rating_score: markerPos = 2.008571431040764
+81.9565 	DATA 	Mouse:  Left button up, pos=(668,508)
+81.9654 	EXP 	rating_score: markerPos = 2.008571431040764
+81.9854 	EXP 	rating_score: markerPos = 2.0
+81.9854 	EXP 	rating_score: rating = 2.0
+82.6648 	DATA 	Keypress: space
+82.6785 	EXP 	New trial (rep=2, index=0): None
+83.2260 	EXP 	text_3: autoDraw = False
+83.2260 	EXP 	rating_score: autoDraw = False
+83.2260 	EXP 	text_7: autoDraw = False
+83.2260 	EXP 	text_2: text = "Press 'space' for the next image"
+83.2260 	EXP 	text_2: autoDraw = False
+83.2260 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4A11A1160>
+83.2260 	EXP 	img_shuffled: autoDraw = True
+84.7168 	EXP 	img_shuffled: autoDraw = False
+84.7168 	EXP 	image_stimuli: image = './images/female/25.jpg'
+84.7168 	EXP 	image_stimuli: autoDraw = True
+89.7210 	EXP 	image_stimuli: autoDraw = False
+89.7210 	EXP 	rating_score: markerPos = None
+89.7210 	EXP 	rating_score: markerPos = None
+89.7210 	EXP 	rating_score: rating = None
+89.7210 	EXP 	text_3: autoDraw = True
+89.7210 	EXP 	rating_score: autoDraw = True
+89.7210 	EXP 	text_7: autoDraw = True
+90.9134 	DATA 	Mouse: Left button down, pos=(679,531)
+90.9273 	EXP 	rating_score: markerPos = 2.0399999916553497
+90.9460 	EXP 	rating_score: markerPos = 2.0399999916553497
+90.9649 	EXP 	rating_score: markerPos = 2.0399999916553497
+90.9841 	EXP 	rating_score: markerPos = 2.0399999916553497
+91.0030 	EXP 	rating_score: markerPos = 2.0399999916553497
+91.0216 	EXP 	rating_score: markerPos = 2.0399999916553497
+91.0269 	DATA 	Mouse:  Left button up, pos=(679,531)
+91.0438 	EXP 	rating_score: markerPos = 2.0
+91.0438 	EXP 	rating_score: rating = 2.0
+91.8005 	DATA 	Keypress: space
+91.8190 	EXP 	New trial (rep=3, index=0): None
+92.3642 	EXP 	text_3: autoDraw = False
+92.3642 	EXP 	rating_score: autoDraw = False
+92.3642 	EXP 	text_7: autoDraw = False
+92.3642 	EXP 	text_2: text = "Press 'space' for the next image"
+92.3642 	EXP 	text_2: autoDraw = False
+92.3642 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD1E1908>
+92.3642 	EXP 	img_shuffled: autoDraw = True
+93.8438 	EXP 	img_shuffled: autoDraw = False
+93.8438 	EXP 	image_stimuli: image = './images/female/28.jpg'
+93.8438 	EXP 	image_stimuli: autoDraw = True
+98.8556 	EXP 	image_stimuli: autoDraw = False
+98.8556 	EXP 	rating_score: markerPos = None
+98.8556 	EXP 	rating_score: markerPos = None
+98.8556 	EXP 	rating_score: rating = None
+98.8556 	EXP 	text_3: autoDraw = True
+98.8556 	EXP 	rating_score: autoDraw = True
+98.8556 	EXP 	text_7: autoDraw = True
+105.4970 	DATA 	Mouse: Left button down, pos=(659,434)
+105.6281 	DATA 	Mouse:  Left button up, pos=(659,434)
+107.9168 	DATA 	Mouse: Left button down, pos=(1366,536)
+107.9307 	EXP 	rating_score: markerPos = 4.002857089042664
+107.9498 	EXP 	rating_score: markerPos = 4.002857089042664
+107.9688 	EXP 	rating_score: markerPos = 4.002857089042664
+107.9875 	EXP 	rating_score: markerPos = 4.002857089042664
+108.0067 	EXP 	rating_score: markerPos = 4.002857089042664
+108.0270 	EXP 	rating_score: markerPos = 4.002857089042664
+108.0467 	EXP 	rating_score: markerPos = 4.002857089042664
+108.0519 	DATA 	Mouse:  Left button up, pos=(1366,536)
+108.0677 	EXP 	rating_score: markerPos = 4.0
+108.0677 	EXP 	rating_score: rating = 4.0
+108.7327 	EXP 	New trial (rep=4, index=0): None
+109.2664 	DATA 	Keypress: space
+109.2751 	EXP 	text_3: autoDraw = False
+109.2751 	EXP 	rating_score: autoDraw = False
+109.2751 	EXP 	text_7: autoDraw = False
+109.2751 	EXP 	text_2: text = "Press 'space' for the next image"
+109.2751 	EXP 	text_2: autoDraw = False
+109.2751 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD1E5BE0>
+109.2751 	EXP 	img_shuffled: autoDraw = True
+110.7662 	EXP 	img_shuffled: autoDraw = False
+110.7662 	EXP 	image_stimuli: image = './images/female/5.jpg'
+110.7662 	EXP 	image_stimuli: autoDraw = True
+115.7921 	EXP 	image_stimuli: autoDraw = False
+115.7921 	EXP 	rating_score: markerPos = None
+115.7921 	EXP 	rating_score: markerPos = None
+115.7921 	EXP 	rating_score: rating = None
+115.7921 	EXP 	text_3: autoDraw = True
+115.7921 	EXP 	rating_score: autoDraw = True
+115.7921 	EXP 	text_7: autoDraw = True
+117.3416 	DATA 	Mouse: Left button down, pos=(654,534)
+117.3572 	EXP 	rating_score: markerPos = 1.968571424484253
+117.3765 	EXP 	rating_score: markerPos = 1.968571424484253
+117.3955 	EXP 	rating_score: markerPos = 1.968571424484253
+117.4137 	EXP 	rating_score: markerPos = 1.968571424484253
+117.4325 	EXP 	rating_score: markerPos = 1.968571424484253
+117.4515 	EXP 	rating_score: markerPos = 1.968571424484253
+117.4720 	EXP 	rating_score: markerPos = 1.968571424484253
+117.4772 	DATA 	Mouse:  Left button up, pos=(654,534)
+117.4927 	EXP 	rating_score: markerPos = 2.0
+117.4927 	EXP 	rating_score: rating = 2.0
+118.8352 	DATA 	Mouse: Left button down, pos=(318,543)
+118.8489 	EXP 	rating_score: markerPos = 1.008571445941925
+118.8676 	EXP 	rating_score: markerPos = 1.008571445941925
+118.8861 	EXP 	rating_score: markerPos = 1.008571445941925
+118.9065 	EXP 	rating_score: markerPos = 1.008571445941925
+118.9256 	EXP 	rating_score: markerPos = 1.008571445941925
+118.9445 	EXP 	rating_score: markerPos = 1.008571445941925
+118.9570 	DATA 	Mouse:  Left button up, pos=(318,543)
+118.9640 	EXP 	rating_score: markerPos = 1.008571445941925
+118.9844 	EXP 	rating_score: markerPos = 1.0
+118.9844 	EXP 	rating_score: rating = 1.0
+119.8710 	EXP 	New trial (rep=5, index=0): None
+120.4070 	DATA 	Keypress: space
+120.4152 	EXP 	text_3: autoDraw = False
+120.4152 	EXP 	rating_score: autoDraw = False
+120.4152 	EXP 	text_7: autoDraw = False
+120.4152 	EXP 	text_2: text = "Press 'space' for the next image"
+120.4152 	EXP 	text_2: autoDraw = False
+120.4152 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4A11D4F60>
+120.4152 	EXP 	img_shuffled: autoDraw = True
+121.8929 	EXP 	img_shuffled: autoDraw = False
+121.8929 	EXP 	image_stimuli: image = './images/female/21.jpg'
+121.8929 	EXP 	image_stimuli: autoDraw = True
+126.9174 	EXP 	image_stimuli: autoDraw = False
+126.9174 	EXP 	rating_score: markerPos = None
+126.9174 	EXP 	rating_score: markerPos = None
+126.9174 	EXP 	rating_score: rating = None
+126.9174 	EXP 	text_3: autoDraw = True
+126.9174 	EXP 	rating_score: autoDraw = True
+126.9174 	EXP 	text_7: autoDraw = True
+128.1708 	DATA 	Mouse: Left button down, pos=(676,514)
+128.1863 	EXP 	rating_score: markerPos = 2.0314285904169083
+128.2054 	EXP 	rating_score: markerPos = 2.0314285904169083
+128.2242 	EXP 	rating_score: markerPos = 2.0314285904169083
+128.2430 	EXP 	rating_score: markerPos = 2.0314285904169083
+128.2621 	EXP 	rating_score: markerPos = 2.0314285904169083
+128.2807 	EXP 	rating_score: markerPos = 2.0314285904169083
+128.3012 	EXP 	rating_score: markerPos = 2.0314285904169083
+128.3064 	DATA 	Mouse:  Left button up, pos=(676,514)
+128.3217 	EXP 	rating_score: markerPos = 2.0
+128.3217 	EXP 	rating_score: rating = 2.0
+128.8769 	EXP 	New trial (rep=6, index=0): None
+129.4061 	DATA 	Keypress: space
+129.4147 	EXP 	text_3: autoDraw = False
+129.4147 	EXP 	rating_score: autoDraw = False
+129.4147 	EXP 	text_7: autoDraw = False
+129.4147 	EXP 	text_2: text = "Press 'space' for the next image"
+129.4147 	EXP 	text_2: autoDraw = False
+129.4147 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD2FB2B0>
+129.4147 	EXP 	img_shuffled: autoDraw = True
+130.9035 	EXP 	img_shuffled: autoDraw = False
+130.9035 	EXP 	image_stimuli: image = './images/female/4.jpg'
+130.9035 	EXP 	image_stimuli: autoDraw = True
+135.9146 	EXP 	image_stimuli: autoDraw = False
+135.9146 	EXP 	rating_score: markerPos = None
+135.9146 	EXP 	rating_score: markerPos = None
+135.9146 	EXP 	rating_score: rating = None
+135.9146 	EXP 	text_3: autoDraw = True
+135.9146 	EXP 	rating_score: autoDraw = True
+135.9146 	EXP 	text_7: autoDraw = True
+137.2843 	DATA 	Mouse: Left button down, pos=(664,512)
+137.2983 	EXP 	rating_score: markerPos = 1.9971428513526917
+137.3171 	EXP 	rating_score: markerPos = 1.9971428513526917
+137.3357 	EXP 	rating_score: markerPos = 1.9971428513526917
+137.3548 	EXP 	rating_score: markerPos = 1.9971428513526917
+137.3731 	EXP 	rating_score: markerPos = 1.9971428513526917
+137.3922 	EXP 	rating_score: markerPos = 1.9971428513526917
+137.3968 	DATA 	Mouse:  Left button up, pos=(664,512)
+137.4136 	EXP 	rating_score: markerPos = 2.0
+137.4136 	EXP 	rating_score: rating = 2.0
+138.0875 	EXP 	New trial (rep=7, index=0): None
+138.6206 	DATA 	Keypress: space
+138.6289 	EXP 	text_3: autoDraw = False
+138.6289 	EXP 	rating_score: autoDraw = False
+138.6289 	EXP 	text_7: autoDraw = False
+138.6289 	EXP 	text_2: text = "Press 'space' for the next image"
+138.6289 	EXP 	text_2: autoDraw = False
+138.6289 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD2FBB38>
+138.6289 	EXP 	img_shuffled: autoDraw = True
+140.1140 	EXP 	img_shuffled: autoDraw = False
+140.1140 	EXP 	image_stimuli: image = './images/female/20.jpg'
+140.1140 	EXP 	image_stimuli: autoDraw = True
+145.1325 	EXP 	image_stimuli: autoDraw = False
+145.1325 	EXP 	rating_score: markerPos = None
+145.1325 	EXP 	rating_score: markerPos = None
+145.1325 	EXP 	rating_score: rating = None
+145.1325 	EXP 	text_3: autoDraw = True
+145.1325 	EXP 	rating_score: autoDraw = True
+145.1325 	EXP 	text_7: autoDraw = True
+146.7921 	DATA 	Mouse: Left button down, pos=(1012,515)
+146.8077 	EXP 	rating_score: markerPos = 2.991428568959236
+146.8266 	EXP 	rating_score: markerPos = 2.991428568959236
+146.8460 	EXP 	rating_score: markerPos = 2.991428568959236
+146.8513 	DATA 	Mouse:  Left button up, pos=(1012,515)
+146.8667 	EXP 	rating_score: markerPos = 3.0
+146.8667 	EXP 	rating_score: rating = 3.0
+148.1182 	EXP 	New trial (rep=8, index=0): None
+148.6461 	DATA 	Keypress: space
+148.6546 	EXP 	text_3: autoDraw = False
+148.6546 	EXP 	rating_score: autoDraw = False
+148.6546 	EXP 	text_7: autoDraw = False
+148.6546 	EXP 	text_2: text = "Press 'space' for the next image"
+148.6546 	EXP 	text_2: autoDraw = False
+148.6546 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD1B8080>
+148.6546 	EXP 	img_shuffled: autoDraw = True
+150.1421 	EXP 	img_shuffled: autoDraw = False
+150.1421 	EXP 	image_stimuli: image = './images/female/24.jpg'
+150.1421 	EXP 	image_stimuli: autoDraw = True
+155.1618 	EXP 	image_stimuli: autoDraw = False
+155.1618 	EXP 	rating_score: markerPos = None
+155.1618 	EXP 	rating_score: markerPos = None
+155.1618 	EXP 	rating_score: rating = None
+155.1618 	EXP 	text_3: autoDraw = True
+155.1618 	EXP 	rating_score: autoDraw = True
+155.1618 	EXP 	text_7: autoDraw = True
+156.3382 	DATA 	Mouse: Left button down, pos=(1014,527)
+156.3521 	EXP 	rating_score: markerPos = 2.9971428364515305
+156.3707 	EXP 	rating_score: markerPos = 2.9971428364515305
+156.3894 	EXP 	rating_score: markerPos = 2.9971428364515305
+156.4081 	EXP 	rating_score: markerPos = 2.9971428364515305
+156.4266 	EXP 	rating_score: markerPos = 2.9971428364515305
+156.4462 	EXP 	rating_score: markerPos = 2.9971428364515305
+156.4509 	DATA 	Mouse:  Left button up, pos=(1014,527)
+156.4681 	EXP 	rating_score: markerPos = 3.0
+156.4681 	EXP 	rating_score: rating = 3.0
+156.8642 	DATA 	Keypress: space
+156.8779 	EXP 	New trial (rep=9, index=0): None
+157.4177 	EXP 	text_3: autoDraw = False
+157.4177 	EXP 	rating_score: autoDraw = False
+157.4177 	EXP 	text_7: autoDraw = False
+157.4177 	EXP 	text_2: text = "Press 'space' for the next image"
+157.4177 	EXP 	text_2: autoDraw = False
+157.4177 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD1B8780>
+157.4177 	EXP 	img_shuffled: autoDraw = True
+158.9022 	EXP 	img_shuffled: autoDraw = False
+158.9022 	EXP 	image_stimuli: image = './images/female/23.jpg'
+158.9022 	EXP 	image_stimuli: autoDraw = True
+163.9188 	EXP 	image_stimuli: autoDraw = False
+163.9188 	EXP 	rating_score: markerPos = None
+163.9188 	EXP 	rating_score: markerPos = None
+163.9188 	EXP 	rating_score: rating = None
+163.9188 	EXP 	text_3: autoDraw = True
+163.9188 	EXP 	rating_score: autoDraw = True
+163.9188 	EXP 	text_7: autoDraw = True
+166.3885 	DATA 	Mouse: Left button down, pos=(1023,523)
+166.4160 	EXP 	rating_score: markerPos = 3.022857129573822
+166.4349 	EXP 	rating_score: markerPos = 3.022857129573822
+166.4537 	EXP 	rating_score: markerPos = 3.022857129573822
+166.4658 	DATA 	Mouse:  Left button up, pos=(1023,523)
+166.4732 	EXP 	rating_score: markerPos = 3.022857129573822
+166.4929 	EXP 	rating_score: markerPos = 3.0
+166.4929 	EXP 	rating_score: rating = 3.0
+166.9998 	EXP 	New trial (rep=10, index=0): None
+167.5308 	DATA 	Keypress: space
+167.5394 	EXP 	text_3: autoDraw = False
+167.5394 	EXP 	rating_score: autoDraw = False
+167.5394 	EXP 	text_7: autoDraw = False
+167.5394 	EXP 	text_2: text = "Press 'space' for the next image"
+167.5394 	EXP 	text_2: autoDraw = False
+167.5394 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD1B8DD8>
+167.5394 	EXP 	img_shuffled: autoDraw = True
+169.0306 	EXP 	img_shuffled: autoDraw = False
+169.0306 	EXP 	image_stimuli: image = './images/female/7.jpg'
+169.0306 	EXP 	image_stimuli: autoDraw = True
+174.0319 	EXP 	image_stimuli: autoDraw = False
+174.0319 	EXP 	rating_score: markerPos = None
+174.0319 	EXP 	rating_score: markerPos = None
+174.0319 	EXP 	rating_score: rating = None
+174.0319 	EXP 	text_3: autoDraw = True
+174.0319 	EXP 	rating_score: autoDraw = True
+174.0319 	EXP 	text_7: autoDraw = True
+175.3619 	DATA 	Mouse: Left button down, pos=(326,537)
+175.3759 	EXP 	rating_score: markerPos = 1.0314286053180695
+175.3948 	EXP 	rating_score: markerPos = 1.0314286053180695
+175.4135 	EXP 	rating_score: markerPos = 1.0314286053180695
+175.4323 	EXP 	rating_score: markerPos = 1.0314286053180695
+175.4506 	EXP 	rating_score: markerPos = 1.0314286053180695
+175.4701 	EXP 	rating_score: markerPos = 1.0314286053180695
+175.4753 	DATA 	Mouse:  Left button up, pos=(326,537)
+175.4910 	EXP 	rating_score: markerPos = 1.0
+175.4910 	EXP 	rating_score: rating = 1.0
+175.8140 	EXP 	New trial (rep=11, index=0): None
+176.3421 	DATA 	Keypress: space
+176.3509 	EXP 	text_3: autoDraw = False
+176.3509 	EXP 	rating_score: autoDraw = False
+176.3509 	EXP 	text_7: autoDraw = False
+176.3509 	EXP 	text_2: text = "Press 'space' for the next image"
+176.3509 	EXP 	text_2: autoDraw = False
+176.3509 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD049588>
+176.3509 	EXP 	img_shuffled: autoDraw = True
+177.8407 	EXP 	img_shuffled: autoDraw = False
+177.8407 	EXP 	image_stimuli: image = './images/female/18.jpg'
+177.8407 	EXP 	image_stimuli: autoDraw = True
+182.8678 	EXP 	image_stimuli: autoDraw = False
+182.8678 	EXP 	rating_score: markerPos = None
+182.8678 	EXP 	rating_score: markerPos = None
+182.8678 	EXP 	rating_score: rating = None
+182.8678 	EXP 	text_3: autoDraw = True
+182.8678 	EXP 	rating_score: autoDraw = True
+182.8678 	EXP 	text_7: autoDraw = True
+184.4214 	DATA 	Mouse: Left button down, pos=(676,529)
+184.4350 	EXP 	rating_score: markerPos = 2.0314285904169083
+184.4538 	EXP 	rating_score: markerPos = 2.0314285904169083
+184.4726 	EXP 	rating_score: markerPos = 2.0314285904169083
+184.4907 	EXP 	rating_score: markerPos = 2.0314285904169083
+184.5092 	EXP 	rating_score: markerPos = 2.0314285904169083
+184.5144 	DATA 	Mouse:  Left button up, pos=(676,529)
+184.5298 	EXP 	rating_score: markerPos = 2.0
+184.5298 	EXP 	rating_score: rating = 2.0
+184.7644 	EXP 	New trial (rep=12, index=0): None
+185.3096 	DATA 	Keypress: space
+185.3185 	EXP 	text_3: autoDraw = False
+185.3185 	EXP 	rating_score: autoDraw = False
+185.3185 	EXP 	text_7: autoDraw = False
+185.3185 	EXP 	text_2: text = "Press 'space' for the next image"
+185.3185 	EXP 	text_2: autoDraw = False
+185.3185 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD049BE0>
+185.3185 	EXP 	img_shuffled: autoDraw = True
+186.7844 	EXP 	img_shuffled: autoDraw = False
+186.7844 	EXP 	image_stimuli: image = './images/female/26.jpg'
+186.7844 	EXP 	image_stimuli: autoDraw = True
+191.8126 	EXP 	image_stimuli: autoDraw = False
+191.8126 	EXP 	rating_score: markerPos = None
+191.8126 	EXP 	rating_score: markerPos = None
+191.8126 	EXP 	rating_score: rating = None
+191.8126 	EXP 	text_3: autoDraw = True
+191.8126 	EXP 	rating_score: autoDraw = True
+191.8126 	EXP 	text_7: autoDraw = True
+193.4495 	DATA 	Mouse: Left button down, pos=(656,535)
+193.4633 	EXP 	rating_score: markerPos = 1.9742856919765472
+193.4822 	EXP 	rating_score: markerPos = 1.9742856919765472
+193.5009 	EXP 	rating_score: markerPos = 1.9742856919765472
+193.5198 	EXP 	rating_score: markerPos = 1.9742856919765472
+193.5382 	EXP 	rating_score: markerPos = 1.9742856919765472
+193.5589 	EXP 	rating_score: markerPos = 1.9742856919765472
+193.5642 	DATA 	Mouse:  Left button up, pos=(656,535)
+193.5800 	EXP 	rating_score: markerPos = 2.0
+193.5800 	EXP 	rating_score: rating = 2.0
+193.7063 	DATA 	Keypress: space
+193.7248 	EXP 	New trial (rep=13, index=0): None
+194.2715 	EXP 	text_3: autoDraw = False
+194.2715 	EXP 	rating_score: autoDraw = False
+194.2715 	EXP 	text_7: autoDraw = False
+194.2715 	EXP 	text_2: text = "Press 'space' for the next image"
+194.2715 	EXP 	text_2: autoDraw = False
+194.2715 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4A11F12E8>
+194.2715 	EXP 	img_shuffled: autoDraw = True
+195.7449 	EXP 	img_shuffled: autoDraw = False
+195.7449 	EXP 	image_stimuli: image = './images/female/15.jpg'
+195.7449 	EXP 	image_stimuli: autoDraw = True
+200.7690 	EXP 	image_stimuli: autoDraw = False
+200.7690 	EXP 	rating_score: markerPos = None
+200.7690 	EXP 	rating_score: markerPos = None
+200.7690 	EXP 	rating_score: rating = None
+200.7690 	EXP 	text_3: autoDraw = True
+200.7690 	EXP 	rating_score: autoDraw = True
+200.7690 	EXP 	text_7: autoDraw = True
+202.1387 	DATA 	Mouse: Left button down, pos=(666,528)
+202.1544 	EXP 	rating_score: markerPos = 2.0028571635484695
+202.1736 	EXP 	rating_score: markerPos = 2.0028571635484695
+202.1925 	EXP 	rating_score: markerPos = 2.0028571635484695
+202.2114 	EXP 	rating_score: markerPos = 2.0028571635484695
+202.2297 	EXP 	rating_score: markerPos = 2.0028571635484695
+202.2415 	DATA 	Mouse:  Left button up, pos=(666,528)
+202.2488 	EXP 	rating_score: markerPos = 2.0028571635484695
+202.2711 	EXP 	rating_score: markerPos = 2.0
+202.2711 	EXP 	rating_score: rating = 2.0
+202.7915 	EXP 	New trial (rep=14, index=0): None
+203.3206 	DATA 	Keypress: space
+203.3290 	EXP 	text_3: autoDraw = False
+203.3290 	EXP 	rating_score: autoDraw = False
+203.3290 	EXP 	text_7: autoDraw = False
+203.3290 	EXP 	text_2: text = "Press 'space' for the next image"
+203.3290 	EXP 	text_2: autoDraw = False
+203.3290 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4A11F1898>
+203.3290 	EXP 	img_shuffled: autoDraw = True
+204.8218 	EXP 	img_shuffled: autoDraw = False
+204.8218 	EXP 	image_stimuli: image = './images/female/9.jpg'
+204.8218 	EXP 	image_stimuli: autoDraw = True
+209.8292 	EXP 	image_stimuli: autoDraw = False
+209.8292 	EXP 	rating_score: markerPos = None
+209.8292 	EXP 	rating_score: markerPos = None
+209.8292 	EXP 	rating_score: rating = None
+209.8292 	EXP 	text_3: autoDraw = True
+209.8292 	EXP 	rating_score: autoDraw = True
+209.8292 	EXP 	text_7: autoDraw = True
+211.3217 	DATA 	Mouse: Left button down, pos=(1019,521)
+211.3496 	EXP 	rating_score: markerPos = 3.01142854988575
+211.3685 	EXP 	rating_score: markerPos = 3.01142854988575
+211.3873 	EXP 	rating_score: markerPos = 3.01142854988575
+211.4060 	EXP 	rating_score: markerPos = 3.01142854988575
+211.4179 	DATA 	Mouse:  Left button up, pos=(1019,521)
+211.4254 	EXP 	rating_score: markerPos = 3.01142854988575
+211.4459 	EXP 	rating_score: markerPos = 3.0
+211.4459 	EXP 	rating_score: rating = 3.0
+211.6413 	DATA 	Keypress: space
+211.6591 	EXP 	New trial (rep=15, index=0): None
+212.1905 	EXP 	text_3: autoDraw = False
+212.1905 	EXP 	rating_score: autoDraw = False
+212.1905 	EXP 	text_7: autoDraw = False
+212.1905 	EXP 	text_2: text = "Press 'space' for the next image"
+212.1905 	EXP 	text_2: autoDraw = False
+212.1905 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4A11F1E80>
+212.1905 	EXP 	img_shuffled: autoDraw = True
+213.6821 	EXP 	img_shuffled: autoDraw = False
+213.6821 	EXP 	image_stimuli: image = './images/female/3.jpg'
+213.6821 	EXP 	image_stimuli: autoDraw = True
+218.7014 	EXP 	image_stimuli: autoDraw = False
+218.7014 	EXP 	rating_score: markerPos = None
+218.7014 	EXP 	rating_score: markerPos = None
+218.7014 	EXP 	rating_score: rating = None
+218.7014 	EXP 	text_3: autoDraw = True
+218.7014 	EXP 	rating_score: autoDraw = True
+218.7014 	EXP 	text_7: autoDraw = True
+219.7615 	DATA 	Mouse: Left button down, pos=(645,515)
+219.7756 	EXP 	rating_score: markerPos = 1.9428571313619614
+219.7946 	EXP 	rating_score: markerPos = 1.9428571313619614
+219.8133 	EXP 	rating_score: markerPos = 1.9428571313619614
+219.8320 	EXP 	rating_score: markerPos = 1.9428571313619614
+219.8509 	EXP 	rating_score: markerPos = 1.9428571313619614
+219.8696 	EXP 	rating_score: markerPos = 1.9428571313619614
+219.8818 	DATA 	Mouse:  Left button up, pos=(645,515)
+219.8907 	EXP 	rating_score: markerPos = 1.9428571313619614
+219.9116 	EXP 	rating_score: markerPos = 2.0
+219.9116 	EXP 	rating_score: rating = 2.0
+220.0641 	DATA 	Keypress: space
+220.0827 	EXP 	New trial (rep=16, index=0): None
+220.6158 	EXP 	text_3: autoDraw = False
+220.6158 	EXP 	rating_score: autoDraw = False
+220.6158 	EXP 	text_7: autoDraw = False
+220.6158 	EXP 	text_2: text = "Press 'space' for the next image"
+220.6158 	EXP 	text_2: autoDraw = False
+220.6158 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD003588>
+220.6158 	EXP 	img_shuffled: autoDraw = True
+222.1084 	EXP 	img_shuffled: autoDraw = False
+222.1084 	EXP 	image_stimuli: image = './images/female/22.jpg'
+222.1084 	EXP 	image_stimuli: autoDraw = True
+227.1272 	EXP 	image_stimuli: autoDraw = False
+227.1272 	EXP 	rating_score: markerPos = None
+227.1272 	EXP 	rating_score: markerPos = None
+227.1272 	EXP 	rating_score: rating = None
+227.1272 	EXP 	text_3: autoDraw = True
+227.1272 	EXP 	rating_score: autoDraw = True
+227.1272 	EXP 	text_7: autoDraw = True
+228.8873 	DATA 	Mouse: Left button down, pos=(1057,522)
+228.9024 	EXP 	rating_score: markerPos = 3.1199999898672104
+228.9212 	EXP 	rating_score: markerPos = 3.1199999898672104
+228.9401 	EXP 	rating_score: markerPos = 3.1199999898672104
+228.9590 	EXP 	rating_score: markerPos = 3.1199999898672104
+228.9777 	EXP 	rating_score: markerPos = 3.1199999898672104
+228.9959 	EXP 	rating_score: markerPos = 3.1199999898672104
+229.0160 	EXP 	rating_score: markerPos = 3.1199999898672104
+229.0212 	DATA 	Mouse:  Left button up, pos=(1057,522)
+229.0369 	EXP 	rating_score: markerPos = 3.0
+229.0369 	EXP 	rating_score: rating = 3.0
+229.2283 	EXP 	New trial (rep=17, index=0): None
+229.7531 	DATA 	Keypress: space
+229.7614 	EXP 	text_3: autoDraw = False
+229.7614 	EXP 	rating_score: autoDraw = False
+229.7614 	EXP 	text_7: autoDraw = False
+229.7614 	EXP 	text_2: text = "Press 'space' for the next image"
+229.7614 	EXP 	text_2: autoDraw = False
+229.7614 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD003AC8>
+229.7614 	EXP 	img_shuffled: autoDraw = True
+231.2523 	EXP 	img_shuffled: autoDraw = False
+231.2523 	EXP 	image_stimuli: image = './images/female/27.jpg'
+231.2523 	EXP 	image_stimuli: autoDraw = True
+236.2731 	EXP 	image_stimuli: autoDraw = False
+236.2731 	EXP 	rating_score: markerPos = None
+236.2731 	EXP 	rating_score: markerPos = None
+236.2731 	EXP 	rating_score: rating = None
+236.2731 	EXP 	text_3: autoDraw = True
+236.2731 	EXP 	rating_score: autoDraw = True
+236.2731 	EXP 	text_7: autoDraw = True
+237.3628 	DATA 	Mouse: Left button down, pos=(1026,545)
+237.3787 	EXP 	rating_score: markerPos = 3.031428575515747
+237.3979 	EXP 	rating_score: markerPos = 3.031428575515747
+237.4166 	EXP 	rating_score: markerPos = 3.031428575515747
+237.4354 	EXP 	rating_score: markerPos = 3.031428575515747
+237.4533 	EXP 	rating_score: markerPos = 3.031428575515747
+237.4581 	DATA 	Mouse:  Left button up, pos=(1026,545)
+237.4736 	EXP 	rating_score: markerPos = 3.0
+237.4736 	EXP 	rating_score: rating = 3.0
+237.8367 	EXP 	New trial (rep=18, index=0): None
+238.3637 	DATA 	Keypress: space
+238.3721 	EXP 	text_3: autoDraw = False
+238.3721 	EXP 	rating_score: autoDraw = False
+238.3721 	EXP 	text_7: autoDraw = False
+238.3721 	EXP 	text_2: text = "Press 'space' for the next image"
+238.3721 	EXP 	text_2: autoDraw = False
+238.3721 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD3BE400>
+238.3721 	EXP 	img_shuffled: autoDraw = True
+239.8650 	EXP 	img_shuffled: autoDraw = False
+239.8650 	EXP 	image_stimuli: image = './images/female/29.jpg'
+239.8650 	EXP 	image_stimuli: autoDraw = True
+244.8780 	EXP 	image_stimuli: autoDraw = False
+244.8780 	EXP 	rating_score: markerPos = None
+244.8780 	EXP 	rating_score: markerPos = None
+244.8780 	EXP 	rating_score: rating = None
+244.8780 	EXP 	text_3: autoDraw = True
+244.8780 	EXP 	rating_score: autoDraw = True
+244.8780 	EXP 	text_7: autoDraw = True
+246.0405 	DATA 	Mouse: Left button down, pos=(665,525)
+246.0551 	EXP 	rating_score: markerPos = 1.9999999850988388
+246.0739 	EXP 	rating_score: markerPos = 1.9999999850988388
+246.0929 	EXP 	rating_score: markerPos = 1.9999999850988388
+246.1118 	EXP 	rating_score: markerPos = 1.9999999850988388
+246.1300 	EXP 	rating_score: markerPos = 1.9999999850988388
+246.1420 	DATA 	Mouse:  Left button up, pos=(665,525)
+246.1489 	EXP 	rating_score: markerPos = 1.9999999850988388
+246.1710 	EXP 	rating_score: markerPos = 2.0
+246.1710 	EXP 	rating_score: rating = 2.0
+246.3613 	DATA 	Keypress: space
+246.3801 	EXP 	New trial (rep=19, index=0): None
+246.9112 	EXP 	text_3: autoDraw = False
+246.9112 	EXP 	rating_score: autoDraw = False
+246.9112 	EXP 	text_7: autoDraw = False
+246.9112 	EXP 	text_2: text = "Press 'space' for the next image"
+246.9112 	EXP 	text_2: autoDraw = False
+246.9112 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD3BE978>
+246.9112 	EXP 	img_shuffled: autoDraw = True
+248.4053 	EXP 	img_shuffled: autoDraw = False
+248.4053 	EXP 	image_stimuli: image = './images/female/6.jpg'
+248.4053 	EXP 	image_stimuli: autoDraw = True
+253.4167 	EXP 	image_stimuli: autoDraw = False
+253.4167 	EXP 	rating_score: markerPos = None
+253.4167 	EXP 	rating_score: markerPos = None
+253.4167 	EXP 	rating_score: rating = None
+253.4167 	EXP 	text_3: autoDraw = True
+253.4167 	EXP 	rating_score: autoDraw = True
+253.4167 	EXP 	text_7: autoDraw = True
+255.2548 	DATA 	Mouse: Left button down, pos=(1010,518)
+255.2690 	EXP 	rating_score: markerPos = 2.985714301466942
+255.2879 	EXP 	rating_score: markerPos = 2.985714301466942
+255.3066 	EXP 	rating_score: markerPos = 2.985714301466942
+255.3252 	EXP 	rating_score: markerPos = 2.985714301466942
+255.3439 	EXP 	rating_score: markerPos = 2.985714301466942
+255.3644 	EXP 	rating_score: markerPos = 2.985714301466942
+255.3697 	DATA 	Mouse:  Left button up, pos=(1010,518)
+255.3851 	EXP 	rating_score: markerPos = 3.0
+255.3851 	EXP 	rating_score: rating = 3.0
+255.5728 	EXP 	New trial (rep=20, index=0): None
+256.0968 	DATA 	Keypress: space
+256.1054 	EXP 	text_3: autoDraw = False
+256.1054 	EXP 	rating_score: autoDraw = False
+256.1054 	EXP 	text_7: autoDraw = False
+256.1054 	EXP 	text_2: text = "Press 'space' for the next image"
+256.1054 	EXP 	text_2: autoDraw = False
+256.1054 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD3BEB00>
+256.1054 	EXP 	img_shuffled: autoDraw = True
+257.5995 	EXP 	img_shuffled: autoDraw = False
+257.5995 	EXP 	image_stimuli: image = './images/female/10.jpg'
+257.5995 	EXP 	image_stimuli: autoDraw = True
+262.6238 	EXP 	image_stimuli: autoDraw = False
+262.6238 	EXP 	rating_score: markerPos = None
+262.6238 	EXP 	rating_score: markerPos = None
+262.6238 	EXP 	rating_score: rating = None
+262.6238 	EXP 	text_3: autoDraw = True
+262.6238 	EXP 	rating_score: autoDraw = True
+262.6238 	EXP 	text_7: autoDraw = True
+263.5142 	DATA 	Mouse: Left button down, pos=(331,516)
+263.5283 	EXP 	rating_score: markerPos = 1.0457143187522888
+263.5469 	EXP 	rating_score: markerPos = 1.0457143187522888
+263.5654 	EXP 	rating_score: markerPos = 1.0457143187522888
+263.5841 	EXP 	rating_score: markerPos = 1.0457143187522888
+263.6023 	EXP 	rating_score: markerPos = 1.0457143187522888
+263.6144 	DATA 	Mouse:  Left button up, pos=(331,516)
+263.6233 	EXP 	rating_score: markerPos = 1.0457143187522888
+263.6442 	EXP 	rating_score: markerPos = 1.0
+263.6442 	EXP 	rating_score: rating = 1.0
+263.8531 	EXP 	New trial (rep=21, index=0): None
+264.3934 	DATA 	Keypress: space
+264.4019 	EXP 	text_3: autoDraw = False
+264.4019 	EXP 	rating_score: autoDraw = False
+264.4019 	EXP 	text_7: autoDraw = False
+264.4019 	EXP 	text_2: text = "Press 'space' for the next image"
+264.4019 	EXP 	text_2: autoDraw = False
+264.4019 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4ACE40748>
+264.4019 	EXP 	img_shuffled: autoDraw = True
+265.8794 	EXP 	img_shuffled: autoDraw = False
+265.8794 	EXP 	image_stimuli: image = './images/female/19.jpg'
+265.8794 	EXP 	image_stimuli: autoDraw = True
+270.8913 	EXP 	image_stimuli: autoDraw = False
+270.8913 	EXP 	rating_score: markerPos = None
+270.8913 	EXP 	rating_score: markerPos = None
+270.8913 	EXP 	rating_score: rating = None
+270.8913 	EXP 	text_3: autoDraw = True
+270.8913 	EXP 	rating_score: autoDraw = True
+270.8913 	EXP 	text_7: autoDraw = True
+271.6363 	DATA 	Mouse: Left button down, pos=(264,550)
+271.6520 	EXP 	rating_score: markerPos = 0.8542857766151428
+271.6710 	EXP 	rating_score: markerPos = 0.8542857766151428
+271.6899 	EXP 	rating_score: markerPos = 0.8542857766151428
+271.7085 	EXP 	rating_score: markerPos = 0.8542857766151428
+271.7266 	EXP 	rating_score: markerPos = 0.8542857766151428
+271.7316 	DATA 	Mouse:  Left button up, pos=(264,550)
+271.7468 	EXP 	rating_score: markerPos = 1.0
+271.7468 	EXP 	rating_score: rating = 1.0
+272.0966 	EXP 	New trial (rep=22, index=0): None
+272.6207 	DATA 	Keypress: space
+272.6292 	EXP 	text_3: autoDraw = False
+272.6292 	EXP 	rating_score: autoDraw = False
+272.6292 	EXP 	text_7: autoDraw = False
+272.6292 	EXP 	text_2: text = "Press 'space' for the next image"
+272.6292 	EXP 	text_2: autoDraw = False
+272.6292 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4ACE40D68>
+272.6292 	EXP 	img_shuffled: autoDraw = True
+274.1185 	EXP 	img_shuffled: autoDraw = False
+274.1185 	EXP 	image_stimuli: image = './images/female/11.jpg'
+274.1185 	EXP 	image_stimuli: autoDraw = True
+279.1399 	EXP 	image_stimuli: autoDraw = False
+279.1399 	EXP 	rating_score: markerPos = None
+279.1399 	EXP 	rating_score: markerPos = None
+279.1399 	EXP 	rating_score: rating = None
+279.1399 	EXP 	text_3: autoDraw = True
+279.1399 	EXP 	rating_score: autoDraw = True
+279.1399 	EXP 	text_7: autoDraw = True
+280.1858 	DATA 	Mouse: Left button down, pos=(651,526)
+280.2134 	EXP 	rating_score: markerPos = 1.9599999785423279
+280.2326 	EXP 	rating_score: markerPos = 1.9599999785423279
+280.2516 	EXP 	rating_score: markerPos = 1.9599999785423279
+280.2701 	EXP 	rating_score: markerPos = 1.9599999785423279
+280.2758 	DATA 	Mouse:  Left button up, pos=(651,526)
+280.2910 	EXP 	rating_score: markerPos = 2.0
+280.2910 	EXP 	rating_score: rating = 2.0
+280.4034 	EXP 	New trial (rep=23, index=0): None
+280.9350 	DATA 	Keypress: space
+280.9436 	EXP 	text_3: autoDraw = False
+280.9436 	EXP 	rating_score: autoDraw = False
+280.9436 	EXP 	text_7: autoDraw = False
+280.9436 	EXP 	text_2: text = "Press 'space' for the next image"
+280.9436 	EXP 	text_2: autoDraw = False
+280.9436 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4ACDCC3C8>
+280.9436 	EXP 	img_shuffled: autoDraw = True
+282.4313 	EXP 	img_shuffled: autoDraw = False
+282.4313 	EXP 	image_stimuli: image = './images/female/13.jpg'
+282.4313 	EXP 	image_stimuli: autoDraw = True
+287.4427 	EXP 	image_stimuli: autoDraw = False
+287.4427 	EXP 	rating_score: markerPos = None
+287.4427 	EXP 	rating_score: markerPos = None
+287.4427 	EXP 	rating_score: rating = None
+287.4427 	EXP 	text_3: autoDraw = True
+287.4427 	EXP 	rating_score: autoDraw = True
+287.4427 	EXP 	text_7: autoDraw = True
+288.5617 	DATA 	Mouse: Left button down, pos=(1372,537)
+288.5757 	EXP 	rating_score: markerPos = 4.019999980926514
+288.5942 	EXP 	rating_score: markerPos = 4.019999980926514
+288.6128 	EXP 	rating_score: markerPos = 4.019999980926514
+288.6311 	EXP 	rating_score: markerPos = 4.019999980926514
+288.6518 	EXP 	rating_score: markerPos = 4.019999980926514
+288.6570 	DATA 	Mouse:  Left button up, pos=(1372,537)
+288.6726 	EXP 	rating_score: markerPos = 4.0
+288.6726 	EXP 	rating_score: rating = 4.0
+288.8246 	DATA 	Keypress: space
+288.8444 	EXP 	New trial (rep=24, index=0): None
+289.3778 	EXP 	text_3: autoDraw = False
+289.3778 	EXP 	rating_score: autoDraw = False
+289.3778 	EXP 	text_7: autoDraw = False
+289.3778 	EXP 	text_2: text = "Press 'space' for the next image"
+289.3778 	EXP 	text_2: autoDraw = False
+289.3778 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4ACDCCA90>
+289.3778 	EXP 	img_shuffled: autoDraw = True
+290.8712 	EXP 	img_shuffled: autoDraw = False
+290.8712 	EXP 	image_stimuli: image = './images/female/1.jpg'
+290.8712 	EXP 	image_stimuli: autoDraw = True
+295.8825 	EXP 	image_stimuli: autoDraw = False
+295.8825 	EXP 	rating_score: markerPos = None
+295.8825 	EXP 	rating_score: markerPos = None
+295.8825 	EXP 	rating_score: rating = None
+295.8825 	EXP 	text_3: autoDraw = True
+295.8825 	EXP 	rating_score: autoDraw = True
+295.8825 	EXP 	text_7: autoDraw = True
+296.6489 	DATA 	Mouse: Left button down, pos=(655,516)
+296.6638 	EXP 	rating_score: markerPos = 1.9714285582304
+296.6828 	EXP 	rating_score: markerPos = 1.9714285582304
+296.7017 	EXP 	rating_score: markerPos = 1.9714285582304
+296.7204 	EXP 	rating_score: markerPos = 1.9714285582304
+296.7394 	EXP 	rating_score: markerPos = 1.9714285582304
+296.7447 	DATA 	Mouse:  Left button up, pos=(655,516)
+296.7603 	EXP 	rating_score: markerPos = 2.0
+296.7603 	EXP 	rating_score: rating = 2.0
+296.8084 	DATA 	Keypress: space
+296.8219 	EXP 	New trial (rep=25, index=0): None
+297.3639 	EXP 	text_3: autoDraw = False
+297.3639 	EXP 	rating_score: autoDraw = False
+297.3639 	EXP 	text_7: autoDraw = False
+297.3639 	EXP 	text_2: text = "Press 'space' for the next image"
+297.3639 	EXP 	text_2: autoDraw = False
+297.3639 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD450080>
+297.3639 	EXP 	img_shuffled: autoDraw = True
+298.8495 	EXP 	img_shuffled: autoDraw = False
+298.8495 	EXP 	image_stimuli: image = './images/female/2.jpg'
+298.8495 	EXP 	image_stimuli: autoDraw = True
+303.8637 	EXP 	image_stimuli: autoDraw = False
+303.8637 	EXP 	rating_score: markerPos = None
+303.8637 	EXP 	rating_score: markerPos = None
+303.8637 	EXP 	rating_score: rating = None
+303.8637 	EXP 	text_3: autoDraw = True
+303.8637 	EXP 	rating_score: autoDraw = True
+303.8637 	EXP 	text_7: autoDraw = True
+304.9243 	DATA 	Mouse: Left button down, pos=(302,531)
+304.9398 	EXP 	rating_score: markerPos = 0.9628571271896362
+304.9589 	EXP 	rating_score: markerPos = 0.9628571271896362
+304.9780 	EXP 	rating_score: markerPos = 0.9628571271896362
+304.9968 	EXP 	rating_score: markerPos = 0.9628571271896362
+305.0160 	EXP 	rating_score: markerPos = 0.9628571271896362
+305.0345 	EXP 	rating_score: markerPos = 0.9628571271896362
+305.0550 	EXP 	rating_score: markerPos = 0.9628571271896362
+305.0671 	DATA 	Mouse:  Left button up, pos=(302,531)
+305.0744 	EXP 	rating_score: markerPos = 0.9628571271896362
+305.0954 	EXP 	rating_score: markerPos = 1.0
+305.0954 	EXP 	rating_score: rating = 1.0
+305.3454 	DATA 	Keypress: space
+305.3636 	EXP 	New trial (rep=26, index=0): None
+305.8998 	EXP 	text_3: autoDraw = False
+305.8998 	EXP 	rating_score: autoDraw = False
+305.8998 	EXP 	text_7: autoDraw = False
+305.8998 	EXP 	text_2: text = "Press 'space' for the next image"
+305.8998 	EXP 	text_2: autoDraw = False
+305.8998 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD450828>
+305.8998 	EXP 	img_shuffled: autoDraw = True
+307.3907 	EXP 	img_shuffled: autoDraw = False
+307.3907 	EXP 	image_stimuli: image = './images/female/30.jpg'
+307.3907 	EXP 	image_stimuli: autoDraw = True
+312.4068 	EXP 	image_stimuli: autoDraw = False
+312.4068 	EXP 	rating_score: markerPos = None
+312.4068 	EXP 	rating_score: markerPos = None
+312.4068 	EXP 	rating_score: rating = None
+312.4068 	EXP 	text_3: autoDraw = True
+312.4068 	EXP 	rating_score: autoDraw = True
+312.4068 	EXP 	text_7: autoDraw = True
+313.1180 	DATA 	Mouse: Left button down, pos=(679,509)
+313.1330 	EXP 	rating_score: markerPos = 2.0399999916553497
+313.1519 	EXP 	rating_score: markerPos = 2.0399999916553497
+313.1706 	EXP 	rating_score: markerPos = 2.0399999916553497
+313.1895 	EXP 	rating_score: markerPos = 2.0399999916553497
+313.1949 	DATA 	Mouse:  Left button up, pos=(679,509)
+313.2106 	EXP 	rating_score: markerPos = 2.0
+313.2106 	EXP 	rating_score: rating = 2.0
+314.0338 	DATA 	Keypress: space
+314.0477 	EXP 	New trial (rep=27, index=0): None
+314.5932 	EXP 	text_3: autoDraw = False
+314.5932 	EXP 	rating_score: autoDraw = False
+314.5932 	EXP 	text_7: autoDraw = False
+314.5932 	EXP 	text_2: text = "Press 'space' for the next image"
+314.5932 	EXP 	text_2: autoDraw = False
+314.5932 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD450E80>
+314.5932 	EXP 	img_shuffled: autoDraw = True
+316.0702 	EXP 	img_shuffled: autoDraw = False
+316.0702 	EXP 	image_stimuli: image = './images/female/14.jpg'
+316.0702 	EXP 	image_stimuli: autoDraw = True
+321.0835 	EXP 	image_stimuli: autoDraw = False
+321.0835 	EXP 	rating_score: markerPos = None
+321.0835 	EXP 	rating_score: markerPos = None
+321.0835 	EXP 	rating_score: rating = None
+321.0835 	EXP 	text_3: autoDraw = True
+321.0835 	EXP 	rating_score: autoDraw = True
+321.0835 	EXP 	text_7: autoDraw = True
+322.0012 	DATA 	Mouse: Left button down, pos=(676,529)
+322.0286 	EXP 	rating_score: markerPos = 2.0314285904169083
+322.0474 	EXP 	rating_score: markerPos = 2.0314285904169083
+322.0663 	EXP 	rating_score: markerPos = 2.0314285904169083
+322.0852 	EXP 	rating_score: markerPos = 2.0314285904169083
+322.0905 	DATA 	Mouse:  Left button up, pos=(676,529)
+322.1060 	EXP 	rating_score: markerPos = 2.0
+322.1060 	EXP 	rating_score: rating = 2.0
+322.3528 	EXP 	New trial (rep=28, index=0): None
+322.8727 	DATA 	Keypress: space
+322.8810 	EXP 	text_3: autoDraw = False
+322.8810 	EXP 	rating_score: autoDraw = False
+322.8810 	EXP 	text_7: autoDraw = False
+322.8810 	EXP 	text_2: text = "Press 'space' for the next image"
+322.8810 	EXP 	text_2: autoDraw = False
+322.8810 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD477438>
+322.8810 	EXP 	img_shuffled: autoDraw = True
+324.3766 	EXP 	img_shuffled: autoDraw = False
+324.3766 	EXP 	image_stimuli: image = './images/female/8.jpg'
+324.3766 	EXP 	image_stimuli: autoDraw = True
+329.3962 	EXP 	image_stimuli: autoDraw = False
+329.3962 	EXP 	rating_score: markerPos = None
+329.3962 	EXP 	rating_score: markerPos = None
+329.3962 	EXP 	rating_score: rating = None
+329.3962 	EXP 	text_3: autoDraw = True
+329.3962 	EXP 	rating_score: autoDraw = True
+329.3962 	EXP 	text_7: autoDraw = True
+330.8091 	DATA 	Mouse: Left button down, pos=(320,542)
+330.8232 	EXP 	rating_score: markerPos = 1.0142857134342194
+330.8419 	EXP 	rating_score: markerPos = 1.0142857134342194
+330.8607 	EXP 	rating_score: markerPos = 1.0142857134342194
+330.8798 	EXP 	rating_score: markerPos = 1.0142857134342194
+330.8924 	DATA 	Mouse:  Left button up, pos=(320,542)
+330.8995 	EXP 	rating_score: markerPos = 1.0142857134342194
+330.9203 	EXP 	rating_score: markerPos = 1.0
+330.9203 	EXP 	rating_score: rating = 1.0
+331.0571 	DATA 	Keypress: space
+331.0891 	EXP 	New trial (rep=29, index=0): None
+331.6220 	EXP 	text_3: autoDraw = False
+331.6220 	EXP 	rating_score: autoDraw = False
+331.6220 	EXP 	text_7: autoDraw = False
+331.6220 	EXP 	text_2: text = "Press 'space' for the next image"
+331.6220 	EXP 	text_2: autoDraw = False
+331.6220 	EXP 	img_shuffled: image = <PIL.Image.Image image mode=RGB size=512x512 at 0x1F4AD477B00>
+331.6220 	EXP 	img_shuffled: autoDraw = True
+333.1294 	EXP 	img_shuffled: autoDraw = False
+333.1294 	EXP 	image_stimuli: image = './images/female/12.jpg'
+333.1294 	EXP 	image_stimuli: autoDraw = True
+338.1219 	EXP 	image_stimuli: autoDraw = False
+338.1219 	EXP 	rating_score: markerPos = None
+338.1219 	EXP 	rating_score: markerPos = None
+338.1219 	EXP 	rating_score: rating = None
+338.1219 	EXP 	text_3: autoDraw = True
+338.1219 	EXP 	rating_score: autoDraw = True
+338.1219 	EXP 	text_7: autoDraw = True
+338.9635 	DATA 	Mouse: Left button down, pos=(1368,502)
+338.9793 	EXP 	rating_score: markerPos = 4.008571445941925
+338.9982 	EXP 	rating_score: markerPos = 4.008571445941925
+339.0170 	EXP 	rating_score: markerPos = 4.008571445941925
+339.0358 	EXP 	rating_score: markerPos = 4.008571445941925
+339.0410 	DATA 	Mouse:  Left button up, pos=(1368,502)
+339.0561 	EXP 	rating_score: markerPos = 4.0
+339.0561 	EXP 	rating_score: rating = 4.0
+339.2738 	DATA 	Keypress: space
+340.3158 	EXP 	text_3: autoDraw = False
+340.3158 	EXP 	rating_score: autoDraw = False
+340.3158 	EXP 	text_7: autoDraw = False
+340.3158 	EXP 	text_4: autoDraw = True
+342.3137 	EXP 	text_4: autoDraw = False
+342.4572 	EXP 	window1: mouseVisible = True
