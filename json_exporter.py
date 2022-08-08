@@ -1,4 +1,3 @@
-import csv
 from lib2to3.pgen2.token import NEWLINE
 from os import listdir
 import openpyxl

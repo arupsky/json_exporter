@@ -1,6 +1,5 @@
 from cmath import nan
 
-
 class Trial_DTO:
     trial_id = ""
     pupil_dilation = []
