@@ -1,11 +1,21 @@
+import csv
+from lib2to3.pgen2.token import NEWLINE
 from os import listdir
 import openpyxl
-import json
 import Trial_DTO
 import pandas
 
-input_folder_path = "test_data/118170"+"/"
-output_folder_path = input_folder_path +"/output.json"
+# input_folder_path = 'test_data/118170'+'/'
+input_folder_path = 'source_data/119509'+'/'
+output_folder_path = input_folder_path +'/output.json'
+excel_file_loc = ''
+csv_file_loc = ''
+for file in listdir(input_folder_path):
+    if file.endswith('.csv'):
+        csv_file_loc = input_folder_path + file
+    elif file.endswith('.xlsx'):
+        excel_file_loc = input_folder_path + file
+
 
 trial_dictionary = {}
 
@@ -14,7 +24,7 @@ pupil_dilation = []
 baseline = []
 rating = 0
 
-wb_obj =  openpyxl.load_workbook("test_data/118170/118170_pupil_reaction_to_faces_2022-08-04_1143.xlsx")
+wb_obj =  openpyxl.load_workbook(excel_file_loc)
 current_row = 2
 sheet_obj = wb_obj.active
 m_row = sheet_obj.max_row
@@ -45,17 +55,23 @@ for current_row in range(2, m_row + 1):
         trial_id = stimulii_obj.value
 
 
-rating_csv = pandas.read_csv("test_data/118170/118170_pupil_reaction_to_faces_2022_Aug_04_1343.csv", usecols=['image.dir', 'rating_score.response'])
-print(rating_csv['image.dir'][0])
+rating_csv = pandas.read_csv(csv_file_loc, usecols=['image.dir', 'rating_score.response'])
 
 for index in range (0, len(rating_csv)):
     trial_dictionary[rating_csv['image.dir'][index]].rating = rating_csv['rating_score.response'][index]
 
+# some weird fucking reason json serialization / marshal could not be used, manual implemenation is done instead
+
+serialized_json_string = '{"trials":['
+
+for key in trial_dictionary:
+    serialized_json_string += '\n' + str (trial_dictionary[key].tojson()) + ','
+
+serialized_json_string = serialized_json_string[:-1]
+serialized_json_string += ']}'
+
 f = open (output_folder_path, 'w')
-f.write (json.dumps (trial_dictionary))
+f.write (serialized_json_string)
 f.close()
 
 print ("Done: " + str (len(rating_csv)))
-
-print(trial_dictionary['./images/male/28.jpg'].rating)
-print(trial_dictionary['./images/male/28.jpg'].baseline[0])
