@@ -38,16 +38,17 @@ for current_row in range(2, m_row + 1):
     if (stimulii_obj.value == 'b'):
         baseline.append(diameter_obj.value)
         isSaved = False
-    elif (stimulii_obj.value == 'r' and not isSaved):
-        # save to dictionary
-        trial_DTO = Trial_DTO.Trial_DTO(trial_id, pupil_dilation, baseline, 0)        
-        # print(str(trial_DTO.baseline))
+    elif (stimulii_obj.value == 'r'):
+        if not isSaved:
+            # save to dictionary
+            trial_DTO = Trial_DTO.Trial_DTO(trial_id, pupil_dilation, baseline, 0)        
+            # print(str(trial_DTO.baseline))
 
-        trial_dictionary[trial_id] = trial_DTO
+            trial_dictionary[trial_id] = trial_DTO
 
-        pupil_dilation = []
-        baseline = []
-        isSaved = True
+            pupil_dilation = []
+            baseline = []
+            isSaved = True
             
     else:        
         pupil_dilation.append(diameter_obj.value)
